@@ -1,32 +1,50 @@
-FOOD FOR THOUGHT CHALLENGE — TEAM PREPARATION CHECKLIST
-Edition 02 design preview. Rules below are carried forward from Edition 01;
-final rules, dates, rewards and registration link await launch confirmation.
+FOOD FOR THOUGHT — EDITION 02: TEAM PREPARATION CHECKLIST
 
-YOUR TEAM & FILE
-[ ] Form a team of 2–4 participants.
-[ ] Prepare a PDF of no more than 5 pages, under 20 MB.
-[ ] Use the filename TeamName_CollegeName.pdf.
-[ ] Include ideas for BOTH food delivery and dining out.
+THE CHALLENGE
+What should Swiggy build next for India's college students?
+Discover a meaningful unmet need, validate it, design a new solution, and show
+why Swiggy is uniquely positioned to deliver it sustainably. AI is optional.
 
-YOUR CASE
-[ ] Map campus population, food habits, cuisine preferences and ordering times.
-[ ] Note delivery restrictions and key campus events.
-[ ] Identify unmet needs and growth opportunities.
-[ ] Present original solutions and explain why they should work.
-[ ] Estimate growth, engagement and repeat-use outcomes.
-[ ] Set out launch steps, partners, resources, timelines and costs.
+ELIGIBILITY AND REGISTRATION
+[ ] Students from eligible colleges in India; all batches and disciplines.
+[ ] 2–4 team members, all from the same college.
+[ ] Each student is in only one team.
+[ ] Every member registers for Swiggy Student Rewards:
+    https://swiggy.onelink.me/888564224/u631l8dw
+[ ] Register the competition team by 30 October 2026.
+    Official competition registration link will be announced.
+    Student Rewards registration is a separate prerequisite, not competition entry.
+[ ] No team member changes after registration closes.
 
-FOUR EQUALLY WEIGHTED JUDGING CRITERIA (25% EACH)
-Innovativeness / Impact on growth / Execution feasibility / Cost effectiveness
+UP TO FIVE SLIDES
+1. Campus insight: behaviour, unmet need, operational challenge or opportunity.
+2. Proposed solution: product, AI solution, tool, automation, marketing,
+   partnership, operational improvement or community initiative.
+3. User journey: how it works and how relevant students, restaurant partners,
+   delivery partners or internal teams interact with and benefit from it.
+4. Business impact: relevant adoption, transactions, frequency, retention,
+   revenue, costs, efficiency, productivity or customer experience outcomes.
+5. Execution plan: pilot, scaling, implementation, estimated cost, dependencies,
+   risks and measurable success metrics. For AI-led ideas, explain AI's role
+   and demonstrate a prototype/mock-up wherever feasible.
 
-BEFORE YOU FINISH
-[ ] Support your case with student research.
-[ ] Check your numbers and explain your assumptions.
-[ ] Be specific about your campus.
-[ ] Include a bold vision and a practical first step.
+REQUIRED CAMPUS VALIDATION — INCLUDE AT LEAST ONE
+[ ] Student survey, student interviews, merchant interviews, observations,
+    a small experiment, or a prototype/concept test.
+
+BEFORE SUBMITTING
+[ ] Presentation has no more than five slides.
+[ ] Explain why Swiggy should solve this need.
+[ ] Support your estimates and make assumptions clear.
+[ ] Submit through the competition platform in its prescribed format by the deadline.
+    Submission deadline and platform instructions will be announced.
+
+SELECTION
+AI-assisted screening -> top 50 progress towards finale selection ->
+6–7 teams present in person to Swiggy leadership.
+Finale date and location: to be announced.
+Jury criteria: quality of insight, originality, business potential, execution
+feasibility, presentation and responses to questions.
+Cash prize amounts and detailed reward terms: to be announced.
 
 Questions: swiggyforstudents@swiggy.in
-Email subject: Food for Thought Challenge
-
-Original competition: https://www.foodforthoughtchallenge.in/
-2025 recap: https://blog.swiggy.com/news/food-for-thought-challenge-2025-swiggys-first-ever-student-case-study-competition/

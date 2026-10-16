@@ -12,8 +12,3 @@ document.querySelectorAll('.brand,.back-top').forEach(link=>link.addEventListene
 document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{showEdition(button.dataset.view,true);history.replaceState(null,'',button.dataset.view==='v1'?'#fftc-v1':'#top');}));
 window.addEventListener('hashchange',()=>{showEdition(location.hash==='#fftc-v1'?'v1':'current');revealLinkedGuidance();});
 showEdition(location.hash==='#fftc-v1'?'v1':'current');revealLinkedGuidance();
-const dialog=document.querySelector('#launch-dialog');
-document.querySelectorAll('.launch-button').forEach(button=>button.addEventListener('click',()=>dialog.showModal()));
-document.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
-document.querySelector('.dialog-explore').addEventListener('click',()=>{showEdition('current');document.querySelector('#guidelines').open=true;dialog.close();});
-dialog.addEventListener('click',event=>{const r=dialog.getBoundingClientRect();if(event.target===dialog&&(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom))dialog.close();});

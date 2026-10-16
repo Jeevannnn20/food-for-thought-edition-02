@@ -1,10 +1,10 @@
 # Food for Thought Challenge — Edition 02
 
-A responsive website concept for Swiggy’s student case study competition, built to make the challenge easy to understand, explore and share for review.
+A responsive website for Swiggy’s student case study competition. FFT V2 asks: **What should Swiggy build next for India’s college students?**
 
 **[View the live website on Vercel →](https://food-for-thought-edition-02.vercel.app/)**
 
-**Status:** Design preview for stakeholder review. Edition 02 registration dates, the official registration link, final rules and rewards are awaiting confirmation.
+**Status:** Updated with the supplied FFT V2 brief. Competition registration closes **30 October 2026**. The official competition registration URL is pending; Student Rewards signup is available. Submission deadline, finale date/location and detailed prize terms remain to be announced.
 
 ![Food for Thought Challenge website preview](docs/website-preview.jpg)
 
@@ -14,13 +14,20 @@ The website refreshes the first edition’s familiar visual identity while keepi
 
 The main page includes:
 
-- **About and Problem Statement:** competition context and the two core outcomes—driving preference and building stickiness.
-- **How to enter:** team size, submission format and competition stages, with expandable submission guidance, judging criteria, tips and student initiatives.
-- **Meet the class of ’25:** the previous edition’s winners, official photographs and participation highlights.
-- **Good ideas. Great rewards:** the Edition 01 reward line-up, clearly labelled as a reference pending Edition 02 confirmation.
-- **FFT V1:** a separate first-edition recap accessible from the top navigation.
+- **About and problem statement:** discover an unmet student need, validate the opportunity, design a new solution and explain why Swiggy should solve it sustainably.
+- **How to enter:** 2–4 students from the same college, all batches and disciplines at eligible Indian colleges. Every member must register for Student Rewards; each student may join only one team.
+- **Five-slide submission guide:** campus insight, proposed solution, user journey, business impact and execution plan. Campus-level validation is mandatory. AI is optional; AI-led ideas should explain its role and show a prototype/mock-up wherever feasible.
+- **Selection and judging:** AI-assisted screening, top 50 progressing towards selection of 6–7 in-person national finalists, and qualitative finale criteria without invented weights.
+- **FAQs and business context:** Swiggy Food, Dineout, Instamart and Student Rewards.
+- **2025 winners and FFT V1:** retained first-edition photographs, results and separate recap; winners appear before Edition 02 rewards.
+- **Registration:** a two-step journey separating Student Rewards signup from competition team registration.
 
-The registration button currently opens an information dialog explaining that dates and the official entry link are coming soon. It does not collect registrations.
+### Registration behavior
+
+1. Every participant can use the [official Student Rewards link](https://swiggy.onelink.me/888564224/u631l8dw).
+2. Competition team registration closes **30 October 2026**. Its official URL is intentionally omitted until supplied; the pending button is disabled.
+
+Student Rewards signup does **not** register a team for the competition. The website does not collect student data or accept case uploads itself. Once supplied, replace the disabled button in `#register` with a link to the official competition platform and update its explanatory text and FAQ.
 
 ## Technology
 
@@ -70,13 +77,16 @@ The included `vercel.json` sets `dist` as the output directory for static hostin
 
 ## Review notes
 
-Desktop and mobile layouts have been checked, including mobile menu behavior, navigation to expandable guidance, FFT V1 switching and horizontal overflow. Winners appear before rewards on the main page.
+Checked desktop and 390px mobile layouts, including horizontal overflow, mobile menu closing after navigation, links opening guidance/FAQs, FFT V1 switching, the Student Rewards URL and the disabled competition registration button. JavaScript syntax, internal anchors and local assets were also checked.
 
-Before the Edition 02 launch, confirm and update:
+Before competition entry can open, add the official registration URL. The following details still need confirmation:
 
-- Registration dates and official entry link
-- Final eligibility, competition stages and submission requirements
-- Final prize amounts and reward terms
+- Submission deadline and platform-specific file/upload instructions
+- National finale date and location
+- Cash prize amounts and detailed reward terms
+- Any final eligible-college list and detailed screening parameters
+
+The internal marketing plan and tentative operational review details from the brief are not published as student-facing commitments.
 
 ## Content and visual references
 
