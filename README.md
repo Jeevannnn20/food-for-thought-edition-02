@@ -27,7 +27,7 @@ The main page includes:
 - **FAQ, downloadable checklist, proposed dates and registration steps.**
 - **2025 winners and FFT V1:** retained original artwork, photographs and separate recap. Winners remain before current rewards.
 
-Longer guidance is expandable, while submission weights, mandatory AI and proposed dates remain visible.
+A plain-language, three-step problem explanation follows About the Competition. The submission summary and all six scope areas are visible without opening a dropdown. Longer guidance is expandable, while submission weights, mandatory AI and proposed dates remain visible.
 
 ### Registration behavior
 
