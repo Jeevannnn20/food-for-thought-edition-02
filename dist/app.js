@@ -12,3 +12,5 @@ document.querySelectorAll('.brand,.back-top').forEach(link=>link.addEventListene
 document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{showEdition(button.dataset.view,true);history.replaceState(null,'',button.dataset.view==='v1'?'#fftc-v1':'#top');}));
 window.addEventListener('hashchange',()=>{showEdition(location.hash==='#fftc-v1'?'v1':'current');revealLinkedGuidance();});
 showEdition(location.hash==='#fftc-v1'?'v1':'current');revealLinkedGuidance();
+
+document.querySelectorAll('a[href^="#"]').forEach(link=>link.addEventListener('click',()=>{const target=document.getElementById(link.getAttribute('href').slice(1));if(target?.tagName==='DETAILS')target.open=true;}));

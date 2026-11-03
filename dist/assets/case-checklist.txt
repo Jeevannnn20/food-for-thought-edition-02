@@ -1,50 +1,78 @@
-FOOD FOR THOUGHT — EDITION 02: TEAM PREPARATION CHECKLIST
+FOOD FOR THOUGHT 2.0 — TEAM SUBMISSION CHECKLIST
 
 THE CHALLENGE
 What should Swiggy build next for India's college students?
-Discover a meaningful unmet need, validate it, design a new solution, and show
-why Swiggy is uniquely positioned to deliver it sustainably. AI is optional.
+Identify an unmet need, validate it on campus, and propose a solution that
+creates student value and a sustainable business opportunity for Swiggy.
+Keep a natural link to Swiggy's core ecosystem and capabilities.
 
-ELIGIBILITY AND REGISTRATION
-[ ] Students from eligible colleges in India; all batches and disciplines.
-[ ] 2–4 team members, all from the same college.
-[ ] Each student is in only one team.
+SCOPE
+Food ordering/discovery/delivery; dining and restaurant experiences;
+delivery/fulfilment; affordability/rewards/loyalty/engagement; campus occasions,
+communities and group experiences; AI-led improvements to these experiences.
+Avoid completely unrelated categories with no natural link to Swiggy.
+
+TEAM & ENTRY
+[ ] Eligible Indian college; any batch or academic discipline.
+[ ] 2–4 members from the same college; each student joins only one team.
 [ ] Every member registers for Swiggy Student Rewards:
     https://swiggy.onelink.me/888564224/u631l8dw
-[ ] Register the competition team by 30 October 2026.
-    Official competition registration link will be announced.
-    Student Rewards registration is a separate prerequisite, not competition entry.
-[ ] No team member changes after registration closes.
+[ ] Register the competition team through the official competition link once available.
+    Student Rewards signup alone is not competition registration.
+[ ] No team changes after registration closes; submit in the prescribed format on time.
+    No limit on the number of teams per college.
 
-UP TO FIVE SLIDES
+BUSINESS CASE — 70%: UP TO FIVE SLIDES
 1. Campus insight: behaviour, unmet need, operational challenge or opportunity.
 2. Proposed solution: product, AI solution, tool, automation, marketing,
    partnership, operational improvement or community initiative.
 3. User journey: how it works and how relevant students, restaurant partners,
    delivery partners or internal teams interact with and benefit from it.
 4. Business impact: relevant adoption, transactions, frequency, retention,
-   revenue, costs, efficiency, productivity or customer experience outcomes.
-5. Execution plan: pilot, scaling, implementation, estimated cost, dependencies,
-   risks and measurable success metrics. For AI-led ideas, explain AI's role
-   and demonstrate a prototype/mock-up wherever feasible.
+   revenue, costs, efficiency, productivity or experience outcomes.
+5. Execution: pilot and scale-up plan, implementation, estimated cost,
+   dependencies, risks and measurable success metrics.
+Evaluated on insight, solution quality, business impact, feasibility and scalability.
 
-REQUIRED CAMPUS VALIDATION — INCLUDE AT LEAST ONE
-[ ] Student survey, student interviews, merchant interviews, observations,
-    a small experiment, or a prototype/concept test.
+REQUIRED RESEARCH — AT LEAST ONE
+[ ] Student survey, student interviews, campus observations, a small experiment,
+    or a prototype/concept test.
+[ ] Highlight the key insight and how it influenced the solution.
 
-BEFORE SUBMITTING
-[ ] Presentation has no more than five slides.
-[ ] Explain why Swiggy should solve this need.
-[ ] Support your estimates and make assumptions clear.
-[ ] Submit through the competition platform in its prescribed format by the deadline.
-    Submission deadline and platform instructions will be announced.
+PROTOTYPE — 30%: SHORT VIDEO WALKTHROUGH
+[ ] Functional or simulated prototype, preferably a web app, of the SAME idea.
+[ ] Show problem–solution fit and the core user journey from start to finish.
+[ ] AI IS MANDATORY: show where it is used and the value it adds.
+[ ] Use available Swiggy MCP capabilities wherever relevant.
+[ ] Show core functionality/experience; production readiness is not required.
+[ ] Briefly explain expected user/Swiggy value at scale.
+Evaluated on the working experience, core journey and available Swiggy MCP usage.
+
+CONSENT & USAGE
+Do not publish, showcase or share submitted prototypes or materials on any
+public platform without prior approval from Swiggy. Any publication/showcase
+is subject to Swiggy's applicable internal reviews and approvals.
+
+PROPOSED TIMELINE — SUBJECT TO CONFIRMATION
+Launch: 7 November 2026
+Registration deadline: 21 November 2026
+Submission deadline: 15 December 2026
+Evaluation process: 31 December 2026
+National finale: 15 January 2027; location to be announced.
+Platform-specific upload instructions will be announced.
 
 SELECTION
-AI-assisted screening -> top 50 progress towards finale selection ->
-6–7 teams present in person to Swiggy leadership.
-Finale date and location: to be announced.
-Jury criteria: quality of insight, originality, business potential, execution
-feasibility, presentation and responses to questions.
-Cash prize amounts and detailed reward terms: to be announced.
+AI screening checks eligibility/completeness, scores valid cases, summarizes
+ideas/rationale, identifies similar submissions and creates a preliminary leaderboard.
+Human validation reviews the top 50 plus near-cutoff, duplication-flagged and
+high-potential cases. 6–7 teams present in person to Swiggy leadership.
+Finale jury: insight quality, originality, business potential, execution feasibility,
+presentation and responses to questions.
+
+REWARDS
+National winner: Rs 1,50,000 cash prizes + pre-placement interview opportunity.
+First runner-up: Rs 50,000 cash prize.
+Top 50: Rs 2,000 DineCash per team (Rs 1,00,000 total).
+All registering students: Rs 200 DineCash per student.
 
 Questions: swiggyforstudents@swiggy.in
