@@ -37,6 +37,9 @@ The original problem statement is reproduced verbatim after About the Competitio
 
 Student Rewards signup does **not** register a team for the competition. The website does not collect student data or accept case uploads itself. Once supplied, replace the disabled button in `#register` with a link to the official competition platform and update the explanatory text and FAQ.
 
+
+Navigation follows the current page order: About, Problem, Key dates, Evaluation, Submissions, Eligibility, FAQs, 2025 Winners and Rewards, followed by FFT V1 and Register. Eligibility opens its dropdown directly.
+
 ## Technology
 
 - HTML for content and structure
