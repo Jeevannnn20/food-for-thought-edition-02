@@ -19,7 +19,7 @@ The website refreshes the first edition’s familiar visual identity while keepi
 The main page includes:
 
 - **Problem and scope:** validate an unmet student need and connect the solution to Swiggy’s core ecosystem. Covers food ordering/delivery, dining, fulfilment, affordability/rewards/loyalty, campus communities and AI-led improvements; unrelated categories are out of scope.
-- **Visible 70/30 evaluation cards:** five-slide business case and short video of a functional or simulated prototype, preferably a web app. The prototype must demonstrate the same business idea; production readiness is not required.
+- **Detailed submission and evaluation dropdowns:** five-slide business case (70%) and short video of a functional or simulated prototype (30%), preferably a web app. The prototype must demonstrate the same business idea; production readiness is not required.
 - **Business case guidance:** campus insight, proposed solution, user journey, business impact and execution plan; at least one form of campus validation is required.
 - **Prototype guidance:** problem–solution fit, core journey, relevant available Swiggy MCP usage, mandatory AI and its value, feasibility and expected impact.
 - **Eligibility:** 2–4 students from the same eligible Indian college, all batches/disciplines; each student may join only one team, every member needs Student Rewards, no membership changes after registration closes, no team-count limit per college.
@@ -86,7 +86,7 @@ The included `vercel.json` sets `dist` as the output directory for static hostin
 
 ## Review notes
 
-Checked desktop and 390px mobile layouts, horizontal overflow, mobile menu closing after navigation, evaluation links opening submission/prototype guidance, FAQs and FFT V1 switching. Verified JavaScript syntax, internal anchors/assets, branding, mandatory AI wording, 70/30 weights, the confirmed registration deadline and other proposed dates and prize amounts.
+Checked desktop and 390px mobile layouts, horizontal overflow, mobile menu closing after navigation, the Evaluation menu opening judging guidance, FAQs and FFT V1 switching. Verified JavaScript syntax, internal anchors/assets, branding, mandatory AI wording, 70/30 weights, the confirmed registration deadline and other proposed dates and prize amounts.
 
 Still pending: the competition registration URL, platform-specific upload instructions, finale location and confirmation of the remaining proposed dates. No video duration or upload limits have been invented.
 
