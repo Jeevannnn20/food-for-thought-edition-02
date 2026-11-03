@@ -80,3 +80,7 @@ dialog{background:var(--cream);border:1px solid var(--ink);border-radius:12px;pa
 @media(max-width:640px){.hero-caption .hero-deadline{margin-top:12px;padding:10px 13px}.hero-caption .hero-deadline p{font-size:17px;line-height:1.45}.deadline-note-label{font-size:9px}}
 
 .hero-deadline time{white-space:nowrap}
+
+/* Original problem statement: wording preserved verbatim, with readable spacing. */
+.verbatim-problem{margin-top:26px}.competition-intro .verbatim-problem h3{font-size:23px;margin:0 0 16px}.verbatim-problem h4{font-size:19px;line-height:1.35;letter-spacing:-.3px;margin:23px 0 10px}.verbatim-problem h3+h4{margin-top:0}.competition-intro .verbatim-problem p{margin-top:10px}.competition-intro .verbatim-problem .original-list{display:block;padding-left:22px;margin:10px 0 18px}.competition-intro .verbatim-problem .original-list li{font-size:15px;line-height:1.65;margin-top:5px}
+@media(max-width:640px){.competition-intro .verbatim-problem h3{font-size:21px}.verbatim-problem h4{font-size:17px;margin-top:21px}.competition-intro .verbatim-problem .original-list li{font-size:13px;line-height:1.6}}
