@@ -8,7 +8,7 @@ A responsive website for Swiggy’s student case study competition. Food for Tho
 
 **Confirmed registration deadline: 21 November 2026.** The hero displays this as a prominent note.
 
-**Other dates remain proposed:** Launch 7 November 2026 · submission deadline 15 December 2026 · evaluation process 31 December 2026 · national finale 15 January 2027.
+**Other dates remain proposed:** submission deadline 15 December 2026 · result of Round 1 on 31 December 2026 · national finale 15 January 2027.
 
 ![Food for Thought Challenge website preview](docs/website-preview.jpg)
 
