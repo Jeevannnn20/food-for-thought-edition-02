@@ -6,7 +6,9 @@ A responsive website for Swiggy’s student case study competition. Food for Tho
 
 **Status:** Updated with the latest Food for Thought 2.0 brief. AI use and a prototype video are mandatory. Evaluation is **70% business case / 30% prototype**. The official competition entry URL is pending; the Student Rewards prerequisite link is available.
 
-**Proposed schedule (subject to confirmation):** Launch 7 November 2026 · registration deadline 21 November 2026 · submission deadline 15 December 2026 · evaluation process 31 December 2026 · national finale 15 January 2027. This replaces the earlier 30 October registration deadline.
+**Confirmed registration deadline: 21 November 2026.** The hero displays this as a prominent note.
+
+**Other dates remain proposed:** Launch 7 November 2026 · submission deadline 15 December 2026 · evaluation process 31 December 2026 · national finale 15 January 2027.
 
 ![Food for Thought Challenge website preview](docs/website-preview.jpg)
 
@@ -32,7 +34,7 @@ A plain-language, three-step problem explanation follows About the Competition. 
 ### Registration behavior
 
 1. Every participant can use the [official Student Rewards link](https://swiggy.onelink.me/888564224/u631l8dw).
-2. The proposed competition registration deadline is **21 November 2026**. Its official URL is intentionally omitted until supplied; the pending button is disabled.
+2. The confirmed competition registration deadline is **21 November 2026**. Its official URL is intentionally omitted until supplied; the pending button is disabled.
 
 Student Rewards signup does **not** register a team for the competition. The website does not collect student data or accept case uploads itself. Once supplied, replace the disabled button in `#register` with a link to the official competition platform and update the explanatory text and FAQ.
 
@@ -84,9 +86,9 @@ The included `vercel.json` sets `dist` as the output directory for static hostin
 
 ## Review notes
 
-Checked desktop and 390px mobile layouts, horizontal overflow, mobile menu closing after navigation, evaluation links opening submission/prototype guidance, FAQs and FFT V1 switching. Verified JavaScript syntax, internal anchors/assets, branding, mandatory AI wording, 70/30 weights, all five proposed dates and prize amounts.
+Checked desktop and 390px mobile layouts, horizontal overflow, mobile menu closing after navigation, evaluation links opening submission/prototype guidance, FAQs and FFT V1 switching. Verified JavaScript syntax, internal anchors/assets, branding, mandatory AI wording, 70/30 weights, the confirmed registration deadline and other proposed dates and prize amounts.
 
-Still pending: the competition registration URL, platform-specific upload instructions, finale location and confirmation of the proposed schedule. No video duration or upload limits have been invented.
+Still pending: the competition registration URL, platform-specific upload instructions, finale location and confirmation of the remaining proposed dates. No video duration or upload limits have been invented.
 
 The latest proposed dates take precedence over the older registration deadline in the supplied brief. January’s finale is treated as 2027, following the November–December 2026 stages.
 
