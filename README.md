@@ -6,7 +6,7 @@ A responsive website for Swiggy’s student case study competition. Food for Tho
 
 **Status:** Updated with the latest Food for Thought 2.0 brief. AI use and a prototype video are mandatory. Evaluation is **70% business case / 30% prototype**. The official competition registration form and Student Rewards prerequisite link are available.
 
-**Confirmed registration deadline: 21 November 2026.** The hero displays this as a prominent note.
+**Confirmed registration deadline: 21 November 2026.** The hero displays this as a prominent deadline callout.
 
 **Other dates remain proposed:** submission deadline 15 December 2026 · result of Round 1 on 31 December 2026 · national finale 15 January 2027.
 
@@ -18,7 +18,7 @@ The website refreshes the first edition’s familiar visual identity while keepi
 
 The main page includes:
 
-- **Hero highlights:** a compact four-card row for the winning team’s PPI, up to ₹12 lakh in prizes, eligibility and leadership presentations for finalists.
+- **Hero highlights:** a compact four-card row ordered as eligibility, up to ₹12 lakh in prizes, the winning team’s PPI, and leadership presentations for finalists.
 
 - **Problem and scope:** validate an unmet student need and connect the solution to Swiggy’s core ecosystem. Covers food ordering/delivery, dining, fulfilment, affordability/rewards/loyalty, campus communities and AI-led improvements; unrelated categories are out of scope.
 - **Visible Evaluation Framework and Expected Submission sections:** the supplied wording is reproduced verbatim immediately after Key dates, with headings, paragraphs and bullets matching the problem statement format.
