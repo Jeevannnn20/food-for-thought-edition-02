@@ -14,7 +14,7 @@ A responsive website for Swiggy’s student case study competition. Food for Tho
 
 ## Project overview
 
-The website refreshes the first edition’s familiar visual identity while keeping the main page compact. It uses the original hero artwork and Gilroy typefaces, with an orange 2.0 beside CHALLENGE, simple navigation and a light About/Problem section.
+The website refreshes the first edition’s familiar visual identity while keeping the main page compact. It uses the original hero artwork and Gilroy typefaces, with a matching orange CHALLENGE 2.0 wordmark, simple navigation and a light About/Problem section.
 
 The main page includes:
 
