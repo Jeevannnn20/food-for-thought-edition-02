@@ -103,3 +103,5 @@ dialog{background:var(--cream);border:1px solid var(--ink);border-radius:12px;pa
 .hero-caption .button{font-size:18px}.caption-actions .text-link{font-size:16px}
 .registration-steps .button{font-size:17px}
 @media(max-width:640px){.hero-caption .button{font-size:16px;padding:17px 20px}.caption-actions{gap:20px}.caption-actions .text-link{font-size:14px}.registration-steps .button{font-size:15px}}
+
+.prototype-same-idea{text-decoration-line:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}

@@ -4,7 +4,7 @@ A responsive website for Swiggy’s student case study competition. Food for Tho
 
 **[View the live website on Vercel →](https://food-for-thought-edition-02.vercel.app/)**
 
-**Status:** Updated with the latest Food for Thought 2.0 brief. AI use and a prototype video are mandatory. Evaluation is **70% business case / 30% prototype**. The official competition registration form and Student Rewards prerequisite link are available.
+**Status:** Updated with the latest Food for Thought 2.0 brief. A demo or prototype and its video walkthrough are mandatory. Evaluation is **70% business case / 30% prototype**. The official competition registration form and Student Rewards prerequisite link are available.
 
 **Confirmed registration deadline: 21 November 2026.** The hero displays this as a prominent deadline callout.
 
@@ -21,16 +21,16 @@ The main page includes:
 - **Hero highlights:** a compact four-card row ordered as eligibility, up to ₹12 lakh in prizes, the winning team’s PPI, and leadership presentations for finalists.
 
 - **Problem and scope:** validate an unmet student need and connect the solution to Swiggy’s core ecosystem. Covers food ordering/delivery, dining, fulfilment, affordability/rewards/loyalty, campus communities and AI-led improvements; unrelated categories are out of scope.
-- **Visible Evaluation Framework and Expected Submission sections:** the supplied wording is reproduced verbatim immediately after Key dates, with headings, paragraphs and bullets matching the problem statement format.
+- **Visible Evaluation Framework and Expected Submission sections:** the supplied guidance, with requested refinements, appears immediately after Key dates, with headings, paragraphs and bullets matching the problem statement format.
 - **Business case guidance:** campus insight, proposed solution, user journey, business impact and execution plan; at least one form of campus validation is required.
-- **Prototype guidance:** problem–solution fit, core journey, relevant available Swiggy MCP usage, mandatory AI and its value, feasibility and expected impact.
+- **Prototype guidance:** problem–solution fit, core journey, relevant available Swiggy MCP usage and feasibility. The prototype must demonstrate the same idea as the business case.
 - **Eligibility:** 2–4 students from the same eligible Indian college, all batches/disciplines; each student may join only one team, every member needs Student Rewards, no membership changes after registration closes, no team-count limit per college.
 - **Prizes:** national winner ₹1,50,000 plus a pre-placement interview opportunity; runner-up ₹50,000; top 50 ₹2,000 DineCash per team; all registering students ₹200 DineCash each.
 - **Consent and usage:** participants need prior Swiggy approval before publicly publishing, showcasing or sharing submitted prototypes or materials, subject to applicable reviews and approvals.
 - **FAQ, downloadable checklist, proposed dates and registration steps.**
 - **2025 winners and FFT V1:** retained original artwork, photographs and separate recap. Winners remain before current rewards.
 
-The original problem statement is reproduced verbatim after About the Competition, including its scope, key questions and exclusions. No rewritten explanation, extra steps or additional submission summary appears in that section. Evaluation and submission guidance is visible after Key dates. Duplicate evaluation, business case, research, prototype, consent and tips dropdowns and overlapping FAQ answers have been removed.
+The supplied problem statement appears after About the Competition, including its scope, key questions and exclusions. Requested refinements remove the duplicate justification point and make the mandatory demo/prototype explicit. Evaluation and submission guidance is visible after Key dates. Duplicate evaluation, business case, research, prototype, consent and tips dropdowns and overlapping FAQ answers have been removed.
 
 ### Registration behavior
 
@@ -90,7 +90,7 @@ The included `vercel.json` sets `dist` as the output directory for static hostin
 
 ## Review notes
 
-Checked desktop and 390px mobile layouts, horizontal overflow, mobile menu closing after navigation, the Evaluation and Guidelines menus opening the visible sections, FAQs and FFT V1 switching. Verified JavaScript syntax, internal anchors/assets, branding, mandatory AI wording, 70/30 weights, the confirmed registration deadline and other proposed dates and prize amounts.
+Checked desktop and 390px mobile layouts, horizontal overflow, mobile menu closing after navigation, the Evaluation and Guidelines menus opening the visible sections, FAQs and FFT V1 switching. Verified JavaScript syntax, internal anchors/assets, branding, mandatory prototype wording, 70/30 weights, the confirmed registration deadline and other proposed dates and prize amounts.
 
 Still pending: platform-specific case upload instructions, finale location and confirmation of the remaining proposed dates. No video duration or upload limits have been invented.
 
