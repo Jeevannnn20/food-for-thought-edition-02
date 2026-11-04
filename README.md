@@ -18,6 +18,8 @@ The website refreshes the first edition’s familiar visual identity while keepi
 
 The main page includes:
 
+- **Hero highlights:** a compact four-card row for the winning team’s PPI, up to ₹12 lakh in prizes, eligibility and leadership presentations for finalists.
+
 - **Problem and scope:** validate an unmet student need and connect the solution to Swiggy’s core ecosystem. Covers food ordering/delivery, dining, fulfilment, affordability/rewards/loyalty, campus communities and AI-led improvements; unrelated categories are out of scope.
 - **Visible Evaluation Framework and Expected Submission sections:** the supplied wording is reproduced verbatim immediately after Key dates, with headings, paragraphs and bullets matching the problem statement format.
 - **Business case guidance:** campus insight, proposed solution, user journey, business impact and execution plan; at least one form of campus validation is required.
