@@ -61,7 +61,7 @@ cd food-for-thought-edition-02
 python3 -m http.server 4173 --directory dist
 ```
 
-Open **http://localhost:4173** in your browser. Because this repository is private, cloning requires an authenticated GitHub account with access.
+Open **http://localhost:4173** in your browser. This repository is public and can be cloned without GitHub authentication. Editing the repository requires collaborator write access.
 
 ## Repository structure
 
