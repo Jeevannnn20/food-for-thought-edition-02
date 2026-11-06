@@ -1,0 +1,8 @@
+{
+  "name": "Food for Thought 2.0 · Swiggy",
+  "description": "Food for Thought 2.0: What should Swiggy build next for India’s college students? Submit a five-slide business case (70%) and a prototype video (30%). Explore rules, prizes and the proposed 2026–27 timeline.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ],
+  "permissions": []
+}
