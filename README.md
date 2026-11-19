@@ -4,7 +4,7 @@ A responsive website for Swiggy’s student case study competition. Food for Tho
 
 **[View the live website on Vercel →](https://food-for-thought-edition-02.vercel.app/)**
 
-**Status:** Updated with the latest Food for Thought 2.0 brief. A demo or prototype and its video walkthrough are mandatory. Evaluation is **70% business case / 30% prototype**. The official competition registration form and Student Rewards prerequisite link are available.
+**Status:** Updated with the latest Food for Thought 2.0 brief. A demo or prototype and its video walkthrough are mandatory. Evaluation is **70% business case / 30% prototype**. The official competition registration form, Student Rewards prerequisite link and Round 1 submission form are available.
 
 **Confirmed registration deadline: 21 November 2026.** The hero displays this as a prominent deadline callout.
 
@@ -36,8 +36,9 @@ The supplied problem statement appears after About the Competition, including it
 
 1. Every participant can use the [official Student Rewards link](https://swiggy.onelink.me/888564224/u631l8dw).
 2. The confirmed competition registration deadline is **21 November 2026**. Register through the [Food for Thought 2.0 form](https://tally.so/r/6DLy4Y).
+3. Registered teams can use **Already registered? Submit your entry** after the registration steps. Confirm completed team registration and eligibility (2–4 students from the same college, every member enrolled in Student Rewards and in only one team) to enable the CTA. It opens the [Round 1 Tally submission form](https://tally.so/r/o9RLeO) in a new tab. Guidance and the FAQ link directly to this step.
 
-Student Rewards signup does **not** register a team for the competition. The website does not collect student data or accept case uploads itself. The hero and team registration buttons open the Tally form in a new tab; the FAQ also links to it.
+Student Rewards signup does **not** register a team for the competition. The website does not collect student data or accept case uploads itself. The hero and team registration buttons open the registration form in a new tab. Submission declarations are checked locally and are not sent as form fields. They do not verify registration against Tally; organiser-side validation is still required. The browser’s required checkbox validation also works without JavaScript. An entry is submitted only after the student completes the external submission form.
 
 
 Navigation follows the current page order: About, Problem, Key dates, Evaluation, Submissions, Eligibility, FAQs, 2025 Winners and Rewards, followed by FFT V1 and Register. Eligibility opens its dropdown directly.
@@ -90,9 +91,13 @@ The included `vercel.json` sets `dist` as the output directory for static hostin
 
 ## Review notes
 
+Submission update: checked that the CTA is disabled with zero or one confirmation, enabled with both, disabled again after unchecking, and opens the supplied Tally form in a new tab. Confirmed no declaration fields are sent to Tally. JavaScript syntax and internal anchors/assets pass.
+
+The linked Tally form currently displays a 31 December registration deadline; the website still uses the supplied 21 November registration / 15 December submission schedule. Resolve this content discrepancy with the form owner before student outreach.
+
 Checked desktop and 390px mobile layouts, horizontal overflow, mobile menu closing after navigation, the Evaluation and Guidelines menus opening the visible sections, FAQs and FFT V1 switching. Verified JavaScript syntax, internal anchors/assets, branding, mandatory prototype wording, 70/30 weights, the confirmed registration deadline and other proposed dates and prize amounts.
 
-Still pending: platform-specific case upload instructions, finale location and confirmation of the remaining proposed dates. No video duration or upload limits have been invented.
+The submission form is linked; no case files are stored by this website. Still pending: finale location and confirmation of the remaining proposed dates. No video duration or upload limits have been invented.
 
 The latest proposed dates take precedence over the older registration deadline in the supplied brief. January’s finale is treated as 2027, following the November–December 2026 stages.
 

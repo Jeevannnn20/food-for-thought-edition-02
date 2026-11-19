@@ -14,3 +14,17 @@ window.addEventListener('hashchange',()=>{showEdition(location.hash==='#fftc-v1'
 showEdition(location.hash==='#fftc-v1'?'v1':'current');revealLinkedGuidance();
 
 document.querySelectorAll('a[href^="#"]').forEach(link=>link.addEventListener('click',()=>{const target=document.getElementById(link.getAttribute('href').slice(1));if(target?.tagName==='DETAILS')target.open=true;}));
+
+
+// A self-declaration, not a lookup or verification of a team's Tally registration.
+const submissionForm = document.querySelector('.submission-confirmation');
+if (submissionForm) {
+  const confirmations = [...submissionForm.querySelectorAll('input[type="checkbox"][required]')];
+  const submissionButton = submissionForm.querySelector('button[type="submit"]');
+  function updateSubmissionAccess() {
+    submissionButton.disabled = !confirmations.every(confirmation => confirmation.checked);
+  }
+  submissionForm.addEventListener('change', updateSubmissionAccess);
+  window.addEventListener('pageshow', updateSubmissionAccess);
+  updateSubmissionAccess();
+}

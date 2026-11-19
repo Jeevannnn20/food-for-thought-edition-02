@@ -105,3 +105,17 @@ dialog{background:var(--cream);border:1px solid var(--ink);border-radius:12px;pa
 @media(max-width:640px){.hero-caption .button{font-size:16px;padding:17px 20px}.caption-actions{gap:20px}.caption-actions .text-link{font-size:14px}.registration-steps .button{font-size:15px}}
 
 .prototype-same-idea{text-decoration-line:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+
+
+/* Submission follows registration; eligibility is self-declared before opening Tally. */
+.registration-steps .submission-step{grid-column:1/-1;border-top:1px solid #d9c6ab;padding-top:26px;scroll-margin-top:95px}
+.submission-step-content{width:100%;min-width:0;max-width:850px}
+.submission-confirmation fieldset{margin:0 0 14px;padding:0;border:0;min-width:0}
+.submission-confirmation legend{font-size:14px;font-weight:700;margin-bottom:12px}
+.submission-confirmation label{display:flex;align-items:flex-start;gap:11px;margin:0 0 12px;font-size:14px;line-height:1.6;cursor:pointer}
+.submission-confirmation input{width:18px;height:18px;flex-shrink:0;margin:3px 0 0;accent-color:var(--orange);cursor:pointer}
+.submission-confirmation input:focus-visible{outline:3px solid #5c39be;outline-offset:4px}
+.submission-confirmation .button:disabled{background:#e8e0d4;border-color:#cabda9;color:#62594d;cursor:not-allowed;transform:none;box-shadow:none}
+.registration-steps .submission-confirmation small{max-width:none}
+.submission-entry-link .text-link{font-size:15px}
+@media(max-width:640px){.registration-steps .submission-step{padding-top:22px}.submission-confirmation label{font-size:13px}.submission-confirmation .button{width:100%}}
