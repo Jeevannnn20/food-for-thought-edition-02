@@ -36,9 +36,23 @@ The supplied problem statement appears after About the Competition, including it
 
 1. Every participant can use the [official Student Rewards link](https://swiggy.onelink.me/888564224/u631l8dw).
 2. The confirmed competition registration deadline is **21 November 2026**. Register through the [Food for Thought 2.0 form](https://tally.so/r/6DLy4Y).
-3. Registered teams can use **Already registered? Submit your entry** after the registration steps. Confirm completed team registration and eligibility (2–4 students from the same college, every member enrolled in Student Rewards and in only one team) to enable the CTA. It opens the [Round 1 Tally submission form](https://tally.so/r/o9RLeO) in a new tab. Guidance and the FAQ link directly to this step.
+3. Returning participants select **Already registered? Submit**, which opens the [submission form](https://tally.so/r/o9RLeO) immediately. The site remembers this browser and changes the hero, navigation and registration CTAs to submission links, while hiding registration steps. A **Need to register a different team?** control restores the registration view.
 
-Student Rewards signup does **not** register a team for the competition. The website does not collect student data or accept case uploads itself. The hero and team registration buttons open the registration form in a new tab. Submission declarations are checked locally and are not sent as form fields. They do not verify registration against Tally; organiser-side validation is still required. The browser’s required checkbox validation also works without JavaScript. An entry is submitted only after the student completes the external submission form.
+### Automatic return after registration
+
+On the **registration form** (`6DLy4Y`), enable **Settings → Redirect on completion** and enter:
+
+```text
+https://www.foodforthoughtchallenge.in/?registration=complete#submit
+```
+
+Tally opens this URL only after the form is submitted. The website remembers the submission view, removes the completion parameter from the address, and updates other open tabs on the same website. Clicking a registration link alone does not change the participant’s state. Use the same canonical website domain so browser storage is shared with the original tab.
+
+This Tally setting must be configured by the registration form owner; adding website code does not configure the external form. The redirect is ready in this source but has not been configured in Tally by this commit.
+
+The remembered state is a browser convenience, not registration or eligibility verification. A different browser/device or cleared storage shows the registration view; the **Already registered? Submit** shortcut restores the submission view. No personal details are stored in the browser, and the public Tally submission form remains directly accessible. There is no OTP, account or backend. If browser storage is blocked, the current visit still switches to submissions. Without JavaScript, both Tally form links remain usable.
+
+Student Rewards signup does **not** register a team for the competition. The website does not collect student data or accept case uploads itself. An entry is submitted only after the student completes the external submission form.
 
 
 Navigation follows the current page order: About, Problem, Key dates, Evaluation, Submissions, Eligibility, FAQs, 2025 Winners and Rewards, followed by FFT V1 and Register. Eligibility opens its dropdown directly.
@@ -91,7 +105,7 @@ The included `vercel.json` sets `dist` as the output directory for static hostin
 
 ## Review notes
 
-Submission update: checked that the CTA is disabled with zero or one confirmation, enabled with both, disabled again after unchecking, and opens the supplied Tally form in a new tab. Confirmed no declaration fields are sent to Tally. JavaScript syntax and internal anchors/assets pass.
+Submission behavior: completion redirects and the existing-participant shortcut switch the CTAs to submissions. Registration clicks alone leave the registration view intact. Remembered state refreshes on page return and across tabs; the reset control restores registration. No checkbox confirmation or OTP is required.
 
 The linked Tally form currently displays a 31 December registration deadline; the website still uses the supplied 21 November registration / 15 December submission schedule. Resolve this content discrepancy with the form owner before student outreach.
 

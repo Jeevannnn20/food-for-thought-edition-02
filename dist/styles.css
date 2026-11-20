@@ -107,15 +107,13 @@ dialog{background:var(--cream);border:1px solid var(--ink);border-radius:12px;pa
 .prototype-same-idea{text-decoration-line:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
 
 
-/* Submission follows registration; eligibility is self-declared before opening Tally. */
+/* Returning participants go straight to the Tally submission form. */
 .registration-steps .submission-step{grid-column:1/-1;border-top:1px solid #d9c6ab;padding-top:26px;scroll-margin-top:95px}
 .submission-step-content{width:100%;min-width:0;max-width:850px}
-.submission-confirmation fieldset{margin:0 0 14px;padding:0;border:0;min-width:0}
-.submission-confirmation legend{font-size:14px;font-weight:700;margin-bottom:12px}
-.submission-confirmation label{display:flex;align-items:flex-start;gap:11px;margin:0 0 12px;font-size:14px;line-height:1.6;cursor:pointer}
-.submission-confirmation input{width:18px;height:18px;flex-shrink:0;margin:3px 0 0;accent-color:var(--orange);cursor:pointer}
-.submission-confirmation input:focus-visible{outline:3px solid #5c39be;outline-offset:4px}
-.submission-confirmation .button:disabled{background:#e8e0d4;border-color:#cabda9;color:#62594d;cursor:not-allowed;transform:none;box-shadow:none}
-.registration-steps .submission-confirmation small{max-width:none}
+.entry-action-group{display:grid;gap:12px;justify-items:start}
+.caption-actions .entry-action-group .text-link{font-size:13px}
+.submission-actions{display:flex;align-items:center;flex-wrap:wrap;gap:20px}
+.submission-actions button{background:none;border:0;border-bottom:1px solid currentColor;padding:0 0 6px;border-radius:0}
+.submission-step-content small{max-width:none}
 .submission-entry-link .text-link{font-size:15px}
-@media(max-width:640px){.registration-steps .submission-step{padding-top:22px}.submission-confirmation label{font-size:13px}.submission-confirmation .button{width:100%}}
+@media(max-width:640px){.registration-steps .submission-step{padding-top:22px}.submission-actions .button{width:100%}.caption-actions .entry-action-group .text-link{font-size:11px}}
